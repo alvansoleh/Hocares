@@ -1,0 +1,5 @@
+For Backup:
+mysqldump -u root -p mydatabase > backup.sql
+
+For Recovery:
+mysql -u root -p mydatabase < backup.sql
