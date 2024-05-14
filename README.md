@@ -1,7 +1,35 @@
 This project was bootstrapped with
 [Create React App](https://github.com/facebook/create-react-app).
 
-## Hocares Frontend
+# HOCARES [FRONT END]
+
+## Panduan Instalasi dan Penggunaan
+
+Selamat datang di panduan instalasi dan penggunaan untuk frontend Hocares. Frontend ini merupakan bagian dari sistem informasi manajemen aset berbasis cloud yang kami kembangkan. Panduan ini akan membantu Anda dalam menginstal dan menjalankan frontend secara lokal di komputer Anda. Dengan mengikuti langkah-langkah yang disediakan, Anda akan dapat melakukan konfigurasi awal dan mengakses frontend untuk mengelola aset Anda secara efisien. Silakan ikuti langkah-langkah di bawah ini dengan cermat untuk memulai penggunaan frontend Hocares.
+
+## Prasyarat
+
+Sebelum memulai, pastikan Anda telah menginstal:
+
+- [Node.js](https://nodejs.org/en) dan npm (Node Package Manager)
+- [Git](https://git-scm.com/downloads)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 In the project directory, you can run:
 
