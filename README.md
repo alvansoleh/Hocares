@@ -8,13 +8,52 @@ This project was bootstrapped with
 Selamat datang di panduan instalasi dan penggunaan untuk frontend Hocares. Frontend ini merupakan bagian dari sistem informasi manajemen aset berbasis cloud yang kami kembangkan. Panduan ini akan membantu Anda dalam menginstal dan menjalankan frontend secara lokal di komputer Anda. Dengan mengikuti langkah-langkah yang disediakan, Anda akan dapat melakukan konfigurasi awal dan mengakses frontend untuk mengelola aset Anda secara efisien. Silakan ikuti langkah-langkah di bawah ini dengan cermat untuk memulai penggunaan frontend Hocares.
 
 ## Prasyarat
-
 Sebelum memulai, pastikan Anda telah menginstal:
-
 - [Node.js](https://nodejs.org/en) dan npm (Node Package Manager)
 - [Git](https://git-scm.com/downloads)
 
+### Langkah 1: Clone Repository
 
+1. Buka terminal atau command prompt.
+2. Clone repositori frontend Hocares dengan perintah berikut:
+```
+git clone https://github.com/alvansoleh/HocaresFE.git
+```
+3. Masuk ke direktori proyek:
+```
+cd HocaresFE
+```
+
+### Langkah 2: Instal Dependensi
+
+1. Instal semua dependensi proyek dengan perintah berikut:
+```
+npm install
+```
+
+### Langkah 3: Konfigurasi Environment
+1. Buat file .env di root direktori proyek.
+2. Tambahkan konfigurasi environment yang diperlukan. Contoh konfigurasi:
+```
+REACT_APP_API_URL=http://localhost:5000/api
+```
+
+### Langkah 4: Menjalankan Aplikasi
+1. Jalankan aplikasi frontend dengan perintah berikut:
+```
+npm start
+```
+
+### Langkah 5: Membuat Build untuk Produksi
+1. Untuk membuat build produksi, jalankan perintah berikut:
+```
+npm run build
+```
+2. File build akan dihasilkan di folder build/ dan siap untuk di-deploy.
+
+## Troubleshooting
+- Jika Anda menghadapi masalah saat menginstal dependensi, pastikan versi Node.js dan npm Anda sesuai dengan yang diperlukan oleh proyek.
+- Periksa konfigurasi environment Anda jika aplikasi tidak dapat terhubung ke backend.
 
 
 
